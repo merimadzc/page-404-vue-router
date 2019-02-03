@@ -3,15 +3,16 @@ import App from './App.vue'
 /* vue-router */
 import Router from 'vue-router'
 /* Components */
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home'
+import PageNotFound from './components/404'
 
 Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
   routes: [
-    { path: '/', component: HelloWorld },
-   // { path: '*', component: PageNotFound }
+    { path: '/', component: Home },
+    { path: '*', component: PageNotFound }
   ]
 })
 
