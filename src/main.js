@@ -5,6 +5,8 @@ import Router from 'vue-router'
 /* Components */
 import Home from './components/Home'
 import PageNotFound from './components/404'
+/* Style */
+import './style.css'
 
 Vue.use(Router)
 
