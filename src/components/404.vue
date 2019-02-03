@@ -4,7 +4,7 @@
   	<h5>{{ number }}</h5>
   	<h3>{{ title }}</h3>
     <h2>Back to
-      <router-link to="/">Home</router-link>
+      <router-link to="/home">Home</router-link>
     </h2>
   	<h4>{{ note }}</h4>
   </div>

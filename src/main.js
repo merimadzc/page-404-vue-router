@@ -13,7 +13,7 @@ Vue.use(Router)
 const router = new Router({
   mode: 'history',
   routes: [
-    { path: '/', component: Home },
+    { path: '/home', component: Home },
     { path: '*', component: PageNotFound }
   ]
 })
