@@ -41,3 +41,7 @@ yarn run build
 ```
 yarn run lint
 ```
+## nuxt-error-page
+
+> Error Page with Nuxt.js
+#### https://nuxt-error-page.herokuapp.com/
